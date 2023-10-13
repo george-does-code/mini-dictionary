@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Font from Google Fonts */
+
 * {
     margin: 0;
     padding: 0;
@@ -111,7 +113,7 @@ form {
 
 .meaning-div {
     min-height: 30vh;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -132,3 +134,4 @@ form {
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
+
