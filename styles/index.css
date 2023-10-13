@@ -4,15 +4,17 @@
     font-family: monospace;
 }
 
-body {
-    padding: 0 40px;
-}
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 40px;
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
 }
 
 .nav-links a{
@@ -21,7 +23,7 @@ nav {
 }
 
 .main-div {
-    min-height: 95vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
