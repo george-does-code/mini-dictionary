@@ -111,7 +111,7 @@ form {
 
 .meaning-div {
     min-height: 30vh;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
