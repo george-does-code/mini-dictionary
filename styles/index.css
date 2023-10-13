@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: 'Space Mono', monospace;
 }
 
 nav {
@@ -12,12 +14,12 @@ nav {
 
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     gap: 30px;
 }
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
     color: black;
 }
@@ -27,11 +29,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
 }
 
 .main-head {
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .form-div {
@@ -52,7 +55,7 @@ form {
 #search-field {
     text-align: left;
     padding: 15px 250px 15px 25px;
-    font-size: 2rem;
+    font-size: 1.4rem;
     border-radius: 10px;
     outline: none;
     border: 2px solid rgb(117, 117, 117);
@@ -61,14 +64,14 @@ form {
 #search-field:focus {
     text-align: left;
     padding: 15px 250px 15px 25px;
-    font-size: 2rem;
+    font-size: 1.4rem;
     border-radius: 10px;
     outline: none;
     border: 2px solid black;
 }
 
 #search-field::placeholder {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 #search-btn {
@@ -76,16 +79,22 @@ form {
     outline: none;
     border: 2px solid black;
     color: aliceblue;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     border-radius: 10px;
-    padding: 18px 25px;
+    padding: 15px 25px;
     cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: rgb(36, 35, 35);
+    transition: 0.5s ease-in-out;
+
 }
 
 .word-suggestion {
     display: flex;
     gap: 30px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .word-suggestion span {
@@ -98,4 +107,29 @@ form {
     cursor: pointer;
     background-color: rgba(172, 172, 172, 0.548);
     color: rgb(0, 0, 0);
+}
+
+
+.meaning-div {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meaning-div h1 {
+    font-size: 1.5rem;
+    color: rgb(71, 71, 71);
+}
+
+.meaning-div h1 span {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.meaning-div h2 {
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
 }
