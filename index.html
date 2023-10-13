@@ -27,9 +27,9 @@
     <div class="main-div">
         <div class="form-div">
             <h1 class="main-head">Mini Dictonary v0</h1>
-            <form>
+            <form onclick="getWord()">
                 <input type="text" class="" name="search-word" id="search-field" placeholder="Search a word here...">
-                <input type="submit" id="search-btn" value="Search">
+                <input type="button" id="search-btn" value="Search">
             </form>
             <div class="word-suggestion">
                 <span>Suggestions</span>
@@ -41,13 +41,13 @@
         <div class="meaning-div">
             <h1>
                 Meaning of the word
-                <span>
+                <span id="searched-word">
                     "Freedom"
                 </span>
             </h1>
             <h2>the power or right to act, speak, or think as one wants.</h2>
         </div>
     </div>
+<script src="script/script.js"></script>
 </body>
-
 </html>
